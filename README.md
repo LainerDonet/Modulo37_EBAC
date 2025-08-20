@@ -283,10 +283,10 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE.md](LICENSE.m
 
 ## 📞 Contacto
 
-**Desarrollador**: Tu Nombre  
-**Email**: tu@email.com  
-**LinkedIn**: [Tu perfil de LinkedIn]  
-**Portfolio**: [Tu sitio web]
+**Desarrollador**: Lainer Felipe Donet Vasconcellos 
+**Email**: lainerdonet87@email.com  
+**LinkedIn**: https://www.linkedin.com/in/lainerdonet/
+**Portfolio**:  https://lainerdonet.github.io/Curriculum/
 
 ---
 
