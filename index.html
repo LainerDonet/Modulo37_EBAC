@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rolex Submariner - A Crown for Every Achievement</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loading" id="loading">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <img src="img/Logo-Rolex.png" alt="logo Rolex" class="logo-img">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#features">Características</a></li>
+                <li><a href="#showcase">Submariner</a></li>
+                <li><a href="#testimonials">Testimonios</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <img src="img/rolex-submariner.png" alt="Rolex Submariner" class="hero-image">
+            <h1>SUBMARINER</h1>
+            <p class="subtitle">A Crown for Every Achievement</p>
+            <p class="description">Descubre la perfección suiza en cada detalle. El Rolex Submariner, un símbolo de precisión y elegancia que trasciende el tiempo.</p>
+            <a href="#contact" class="cta-primary" id="heroBtn">Descubre Más</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">Excelencia Sin Compromiso</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">⚙️</div>
+                    <h3 class="feature-title">Movimiento Perpetuo</h3>
+                    <p class="feature-description">Calibre automático de manufactura Rolex con reserva de marcha de aproximadamente 70 horas, garantizando precisión absoluta.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌊</div>
+                    <h3 class="feature-title">Resistente al Agua</h3>
+                    <p class="feature-description">Hermético hasta 300 metros de profundidad, diseñado para profesionales del buceo y aventureros intrépidos.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💎</div>
+                    <h3 class="feature-title">Materiales Premium</h3>
+                    <p class="feature-description">Acero inoxidable 904L, cristal de zafiro antirreflectante y bisel giratorio unidireccional de cerámica Cerachrom.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Showcase -->
+    <section class="showcase" id="showcase">
+        <div class="container">
+            <div class="showcase-content">
+                <div class="showcase-text">
+                    <h2>SUBMARINER</h2>
+                    <p>Nacido en 1953, el Submariner fue el primer reloj de pulsera hermético garantizado hasta 100 metros de profundidad. Su bisel giratorio graduado permite a los buceadores leer de manera segura su tiempo de inmersión.</p>
+                    <p>Más que un instrumento de buceo, el Submariner se ha convertido en un icono de elegancia y funcionalidad, llevado tanto en las profundidades oceánicas como en las alfombras rojas más prestigiosas del mundo.</p>
+                    <a href="#contact" class="cta-primary">Solicitar Información</a>
+                </div>
+                <div class="watch-container">
+                    <div class="watch-image" id="watchImage">
+                        <div class="watch-face">
+                            <div class="watch-hands hour-hand"></div>
+                            <div class="watch-hands minute-hand"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2 class="section-title">Lo Que Dicen Nuestros Clientes</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-quote">"Mi Submariner no es solo un reloj, es una declaración de principios. Cada vez que lo veo en mi muñeca, me recuerda que la excelencia no tiene compromisos."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JM</div>
+                        <div class="author-info">
+                            <h4>José Martínez</h4>
+                            <p>Empresario</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-quote">"Después de 15 años llevando mi Submariner, sigue funcionando con la precisión del primer día. Es una inversión que trasciende generaciones."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">AR</div>
+                        <div class="author-info">
+                            <h4>Ana Rodríguez</h4>
+                            <p>Coleccionista</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-quote">"Como buceador profesional, he puesto a prueba mi Submariner en las condiciones más extremas. Nunca me ha fallado. Es simplemente perfecto."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">CL</div>
+                        <div class="author-info">
+                            <h4>Carlos López</h4>
+                            <p>Instructor de Buceo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="form-container">
+                <h2>Solicita Información Exclusiva</h2>
+                <p>Déjanos tus datos y un especialista se pondrá en contacto contigo para ofrecerte una experiencia personalizada.</p>
+                
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nombre Completo *</label>
+                        <input type="text" id="name" name="name" required placeholder="Ingresa tu nombre completo">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico *</label>
+                        <input type="email" id="email" name="email" required placeholder="tu@email.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Teléfono</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Tu número de teléfono">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="interest">Interés Principal</label>
+                        <select id="interest" name="interest">
+                            <option value="">Selecciona tu interés</option>
+                            <option value="submariner">Rolex Submariner</option>
+                            <option value="datejust">Rolex Datejust</option>
+                            <option value="daytona">Rolex Daytona</option>
+                            <option value="gmt">Rolex GMT-Master</option>
+                            <option value="otros">Otros modelos</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Cuéntanos qué te interesa específicamente..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Enviar Solicitud</button>
+                </form>
+                
+                <div class="success-message" id="successMessage">
+                    ¡Gracias por tu interés! Nos pondremos en contacto contigo pronto.
+                </div>
+                
+                <div class="error-message" id="errorMessage">
+                    Hubo un error al enviar tu solicitud. Por favor, inténtalo de nuevo.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#">Política de Privacidad</a>
+                <a href="#">Términos de Servicio</a>
+                <a href="#">Garantía</a>
+                <a href="#">Servicio al Cliente</a>
+                <a href="#">Encuentra un Distribuidor</a>
+            </div>
+            <p>&copy; 2024 Rolex SA. Todos los derechos reservados. Rolex es una marca registrada.</p>
+        </div>
+    </footer>
+</body>
+</html>
